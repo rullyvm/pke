@@ -1,17 +1,17 @@
 <head>
-  <meta charset="utf-8">{% if page.offSite %}{% assign root_path = 'https://pke.pili.or.id' %}{% endif %}
+  <meta charset="utf-8">{% if page.offSite %}{% assign root_path = 'http://rullyvm.github.io/pke' %}{% endif %}
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width">
   <meta name="google-site-verification" content="eotfmNVR-r4qTL0MAFLUR0XVumvKeC2i87xYg102u7I" />
-  <link rel="shortcut icon" href="//pke.pili.or.id/favicon.ico" />
+  <link rel="shortcut icon" href="//rullyvm.github.io/pke/favicon.ico" />
   {% if page.noIndex %}<meta name="robots" content="noindex, nofollow">{% endif %}
 
   {% assign meta_content_size = meta_content | size %}
   {% if meta_content_size < 2 %}
     <title>{{ page.title }}</title>
-    <meta property="og:url" content="https://pke.pili.or.id{{ page.url }}"/>
-    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}https://pke.pili.or.id/images/ProfilePic.jpg{% endif %}"/>
+    <meta property="og:url" content="http://rullyvm.github.io/pke{{ page.url }}"/>
+    <meta property="og:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}http://rullyvm.github.io/pke/images/ProfilePic.jpg{% endif %}"/>
     <meta property="og:title" content="{% if page.og_title %}{{ page.og_title | xml_escape }}{% else %}MAYDAY: Democracy needs an upgrade. Act now.{% endif %}"/>
     <meta property="og:description" content="{% if page.og_description %}{{ page.og_description | xml_escape }}{% else %}Money has corrupted politics. We’re a Crowdfunded SuperPAC to end all SuperPACs -- Join us!{% endif %}"/>
     {% if page.twitter_description %}<meta content="{{twitter_description}}" name="twitter:description" />{% endif %}
@@ -24,7 +24,7 @@
     <meta property="twitter:image" content="{{page.twitter_image}}" />
   {% else %}
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="https://pke.pili.or.id/images/ProfilePic.jpg" name="twitter:image:src" />
+    <meta content="http://rullyvm.github.io/pke/images/ProfilePic.jpg" name="twitter:image:src" />
   {% endif %}
     <meta content='@mayday' name="twitter:site" />
 

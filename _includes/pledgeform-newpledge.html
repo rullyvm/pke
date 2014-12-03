@@ -60,7 +60,7 @@ limitations under the License.
       date.setTime(date.getTime()+(24*60*60*1000));
       document.cookie = ("last_team_key={{team.key()}};" +
                          "expires=" + date.toGMTString() +
-                         ";domain=.mayday.us;path=/");
+                         ";domain=.rullyvm.github.io/pke;path=/");
 
      if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
        var verStr = $.browser.version;
@@ -78,9 +78,9 @@ limitations under the License.
 {% capture footer_content %}{{footer_content}}{{add_footer_content}}{% endcapture %}
 
 {% if page.disable-pledge-sidebar == null %}
-<link rel="stylesheet" href="{{ site.baseurl }}/css/landing-newpledge.css?4" />
+<link rel="stylesheet" href="/pke/css/landing-newpledge.css?4" />
 {% else %}
-<link rel="stylesheet" href="{{ site.baseurl }}/css/newpledge.css?4" />
+<link rel="stylesheet" href="/pke/css/newpledge.css?4" />
 {% endif %}
 
 {% if page.disable-pledge-sidebar == null %}
@@ -261,7 +261,7 @@ limitations under the License.
 {% if page.only-bitcoin == null %}
 	        <div class="form-group col-sm-12" id="paypalArea">
 	          <p>We also accept PayPal:</p>
-	          <a href="javascript:;" id='paypalButton'><img alt="Donate with Paypal" src="/images/paypal.png"/></a>
+	          <a href="javascript:;" id='paypalButton'><img alt="Donate with Paypal" src="/pke/images/paypal.png"/></a>
 	        </div>
 {% endif %}
       </form>

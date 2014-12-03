@@ -10,13 +10,13 @@ body > .rally.full-width{min-height:400px}
 
 /* START HEADER */
 .navbar-toggle .icon-bar {background-color: #000}
-.navbar-brand {background: transparent url('/images/mayday-pac-logo.png') no-repeat 0 0;background-size: cover;width: 272px;height: 87px;position: absolute;z-index: 10000;}
+.navbar-brand {background: transparent url('/pke/images/mayday-pac-logo.png') no-repeat 0 0;background-size: cover;width: 272px;height: 87px;position: absolute;z-index: 10000;}
 .navbar-social {z-index: 100;position: fixed;right: 15px}
   .navbar-social .navbar-nav>li>a {padding-top: 0px;padding-bottom: 0px;}
   .navbar-social a.social {width: 106px;height: 26px;background-position: 0 -10px;}
-    .navbar-social a.social.facebook-share {background-image: url('/images/share-facebook.png')}
-    .navbar-social a.social.twitter-share {background-image: url('/images/share-twitter.png')}
-    .navbar-social a.social.email-share {background-image: url('/images/share-email.png')}
+    .navbar-social a.social.facebook-share {background-image: url('/pke/images/share-facebook.png')}
+    .navbar-social a.social.twitter-share {background-image: url('/pke/images/share-twitter.png')}
+    .navbar-social a.social.email-share {background-image: url('/pke/images/share-email.png')}
 
 .navbar-primary {padding-left: 272px;position: absolute;z-index: 100;top: 26px;width: 100%;}
   .navbar-primary .navbar-nav{padding-left:10px;width:100%;}
@@ -60,7 +60,7 @@ body > .rally.full-width{min-height:400px}
     }
     .jumbotron .btn#pledgeButton:after{content:"";display:none;}
 
-    .navbar-primary .navbar-nav>li>a.btn.ribbon{padding: 7px 40px 0; height: 33px; color: #fff; font-weight: 700; margin-top: 5px; margin-right: 20px; text-transform: uppercase; background: transparent url(/images/donate-button.png) 0 0 no-repeat;/*142x33*/ }
+    .navbar-primary .navbar-nav>li>a.btn.ribbon{padding: 7px 40px 0; height: 33px; color: #fff; font-weight: 700; margin-top: 5px; margin-right: 20px; text-transform: uppercase; background: transparent url(/pke/images/donate-button.png) 0 0 no-repeat;/*142x33*/ }
     .btn.ribbon:hover{text-shadow: 0 0 3px rgba(0,0,0,0.8); }
 
   .navbar-primary .navbar-nav .fa.fa-caret-down{padding-left:5px;}
@@ -84,10 +84,10 @@ body > footer {color: #999;background-color:black;}
     .donate-wrap hr {border-color: #666;margin:0;}
     .donate-wrap .container {padding-top: 20px;padding-bottom: 20px}
     .donate-wrap a {color: #fff;font-weight: 700;text-transform: uppercase;}
-    .donate-wrap a.ir {background: transparent url('/images/btn-donate.png') center center no-repeat;width: 289px;height: 47px;display: block;margin: 0 auto;}
+    .donate-wrap a.ir {background: transparent url('/pke/images/btn-donate.png') center center no-repeat;width: 289px;height: 47px;display: block;margin: 0 auto;}
   .social-link {float: right;width: 55px;height: 54px;background: transparent 0 0 no-repeat;margin-left: 10px;}
-    .social-link.facebook {background-image: url('/images/link-facebook.png');}
-    .social-link.twitter {background-image: url('/images/link-twitter.png');}
+    .social-link.facebook {background-image: url('/pke/images/link-facebook.png');}
+    .social-link.twitter {background-image: url('/pke/images/link-twitter.png');}
   .safeharbor{font: normal 1em/1.4 'Merriweather', Georgia, "Times New Roman", Times, serif;display: inline-block;color: #aaa;text-align: center;font-size: 16px;padding: 10px 10px 0 10px;border: 2px solid #aaa;font-variant: small-caps;margin-bottom:10px;}
 /* END FOOTER SECTION */
 
@@ -97,7 +97,7 @@ body > footer {color: #999;background-color:black;}
 .text-red {color: #cc3333 !important;}
 .float-right{float:right !important;}
 .float-left{float:left !important;}
-.cross-stitched {width: 100%;background: transparent url('/images/bg-crossstitch.jpg');padding-bottom: 60px}
+.cross-stitched {width: 100%;background: transparent url('/pke/images/bg-crossstitch.jpg');padding-bottom: 60px}
 
 @media (max-width: 1201px) {
   .navbar-primary .navbar-nav>li>a.btn.ribbon{margin-left:10px;}
@@ -159,10 +159,10 @@ body > footer {color: #999;background-color:black;}
 .arrowdown{width: 0;height: 0;border-left: 20px solid transparent;border-right: 20px solid transparent;border-top: 20px solid rgba(255,255,255,0.8);}
 .halfcircle{position:absolute;top:0;margin-left:50%;left:-50px;z-index:4;height:50px;width:100px;}
 
-.widget1{position:relative;background-image:url('../images/dark_capitol.jpg');background-size:cover;background-repeat:no-repeat;background-position:center center;padding:40px;border-bottom:4px solid white;}
-.widget2{position:relative;background-image:url('../images/blue_franklin.jpg');background-size:cover;background-repeat:no-repeat;background-position:center center;padding:40px;border-bottom:4px solid white;}
-.widget3{position:relative;background-image:url('../images/green_yorktown.jpg');background-size:cover;background-repeat:no-repeat;background-position:top center;padding:40px;border-bottom:4px solid white;}
-.widget4{position:relative;background-image:url('../images/naval_battle.jpg');background-size:cover;background-repeat:no-repeat;background-position:bottom center;padding:40px;border-bottom:4px solid white;}
+.widget1{position:relative;background-image:url('../pke/images/dark_capitol.jpg');background-size:cover;background-repeat:no-repeat;background-position:center center;padding:40px;border-bottom:4px solid white;}
+.widget2{position:relative;background-image:url('../pke/images/blue_franklin.jpg');background-size:cover;background-repeat:no-repeat;background-position:center center;padding:40px;border-bottom:4px solid white;}
+.widget3{position:relative;background-image:url('../pke/images/green_yorktown.jpg');background-size:cover;background-repeat:no-repeat;background-position:top center;padding:40px;border-bottom:4px solid white;}
+.widget4{position:relative;background-image:url('../pke/images/naval_battle.jpg');background-size:cover;background-repeat:no-repeat;background-position:bottom center;padding:40px;border-bottom:4px solid white;}
 
 .widgettext h1, .widgettext h2, .widgettext h3, .widgettext h4, .widgettext h5, .widgettext h6 {color:#FFFF99;text-align:center;font-size:35px;padding-bottom:10px;}
 .widgettext p {color:white;text-align:center;font-size:20px;}
@@ -210,9 +210,9 @@ body > footer {color: #999;background-color:black;}
 #sidesocial {margin-bottom:40px;overflow:hidden;}
   #sidesocial a span {display: none; }
   #sidesocial a {width: 32%; height: 45px; float: left; display: inline-block; background: url('../images/social_facebook.png') no-repeat center center; }
-    #sidesocial .facebook a {background-image: url('../images/social_facebook.png')}
-    #sidesocial .twitter a {background-image: url('../images/social_twitter.png');}
-    #sidesocial .email a {background-image: url('../images/social_email.png');background-size: contain; }
+    #sidesocial .facebook a {background-image: url('../pke/images/social_facebook.png')}
+    #sidesocial .twitter a {background-image: url('../pke/images/social_twitter.png');}
+    #sidesocial .email a {background-image: url('../pke/images/social_email.png');background-size: contain; }
 
 
 #login_modal .modal-header {color: black;}
@@ -299,7 +299,7 @@ h3{color: #313945;}
 
 .button {font: 400 22px/50px 'Questrial', Arial, sans-serif;text-transform: uppercase;text-decoration: none;color: #fff;letter-spacing: 1px;display: inline-block;background: #c33 no-repeat 100% 50%;height: 50px;padding: 0 30px;border-radius: 30px;overflow: hidden; -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 .button:hover {background-color: #b01a1a;}
-.button.arrow {padding-right: 54px;background-image: url(/images/button-array.png);}
+.button.arrow {padding-right: 54px;background-image: url(/pke/images/button-array.png);}
 .btn-group {text-align: center;margin: 77px auto 0;}
   .btn-group .button {margin: 0 17px;}
 

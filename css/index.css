@@ -118,7 +118,7 @@
   .star-image{
     width:42px;
     height:42px;
-    background:transparent url('/images/hero/star.png') 0 0 no-repeat;
+    background:transparent url('/pke/images/hero/star.png') 0 0 no-repeat;
     display:inline-block;
     line-height: 1em;
     margin-top:5px;
@@ -172,7 +172,7 @@
   }
 
   .progress-bar-count {
-    background: #999 url('/images/hero/blue-noise.jpg') 0 0;
+    background: #999 url('/pke/images/hero/blue-noise.jpg') 0 0;
     border-radius: 20px;
     /*padding:6px;*/
     margin:2px auto auto 3px;
@@ -211,7 +211,7 @@ article {
   color: #666;
 }
 .article-details .btn-cta {
-  background: transparent url('/images/btn-blog-cta.png') 0 0 no-repeat;
+  background: transparent url(/pke/images/btn-blog-cta.png') 0 0 no-repeat;
   width: 218px;
   height: 47px;
   display: block;

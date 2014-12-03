@@ -23,7 +23,7 @@
 	font-weight:normal;
 }
 .jumbotron{
-	background: transparent url(http://rullyvm.github.io/pke/images/05-midwest.jpg) no-repeat;
+	background: transparent url('/pke/images/05-midwest.jpg') no-repeat;
 	min-height:1000px;
 	background-position:right top;
 	padding-top: 80px;
@@ -61,7 +61,7 @@
 
 .stepContainer{
 	padding: 10px;
-	background: url(http://rullyvm.github.io/pke/images/header-background.jpg) repeat;
+	background: url('/pke/images/header-background.jpg') repeat;
 	border: 1px solid #e1e1e1;
 }
 
